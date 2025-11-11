@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Youssef Ahmed | Data Engineer</title>
+  
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
+  <style>
+    /* Poppins is the primary font */
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 dark:bg-black dark:text-gray-200 transition-colors duration-500">
+  
+  <header class="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm shadow-md z-50 transition-colors duration-500">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+        <a href="#home" class="text-2xl font-bold text-[#2196F3] dark:text-[#38bdf8]">Yossef Abd Elkarem</a>
+
+        <div id="nav-menu" class="hidden md:flex absolute md:relative top-full left-0 w-full md:w-auto bg-white dark:bg-gray-900 md:bg-transparent md:dark:bg-transparent shadow-lg md:shadow-none transition-transform duration-300 ease-in-out">
+            <ul class="flex flex-col md:flex-row items-center w-full gap-8 font-semibold py-8 md:py-0">
+                <li><a href="#about" class="nav-link hover:text-[#4CAF50] dark:hover:text-green-400 transition-all duration-300">About</a></li>
+                <li><a href="#education" class="nav-link hover:text-[#4CAF50] dark:hover:text-green-400 transition-all duration-300">Education</a></li>
+                <li><a href="#training" class="nav-link hover:text-[#4CAF50] dark:hover:text-green-400 transition-all duration-300">Training & Certs</a></li>
+                <li><a href="#services" class="nav-link hover:text-[#4CAF50] dark:hover:text-green-400 transition-all duration-300">Services</a></li>
+                <li><a href="#projects" class="nav-link hover:text-[#4CAF50] dark:hover:text-green-400 transition-all duration-300">Projects</a></li>
+                <li><a href="#contact" class="nav-link hover:text-[#4CAF50] dark:hover:text-green-400 transition-all duration-300">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="flex items-center gap-4">
+            <button id="theme-toggle" class="text-xl hover:text-[#4CAF50] dark:hover:text-green-400 transition-colors">
+                <i id="theme-icon" class="fas fa-sun"></i>
+            </button>
+            
+            <button id="hamburger-button" class="md:hidden text-xl hover:text-[#4CAF50] dark:hover:text-green-400 transition-colors">
+                <i id="hamburger-icon" class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+</header>
+  
+  <main>
+<section id="home" class="min-h-screen flex flex-col md:flex-row justify-center items-center bg-gradient-to-r from-blue-900 to-blue-400 text-white px-6 pt-24">
+      <div class="flex-1 text-center md:text-left" data-aos="fade-right">
+        <h1 class="text-5xl md:text-6xl font-bold">Yossef Abd Elkarem</h1>
+        <div class="w-20 h-1 bg-[#FFC107] my-4 mx-auto md:mx-0"></div>
+        <p class="text-xl mb-4">Data Engineer</p>
+        <p class="max-w-lg mb-6">A passionate Data Engineering student specializing in building Data Pipelines, Big Data systems, and Cloud-based solutions.</p>
+
+        <div class="flex justify-center md:justify-start gap-6 text-2xl">
+            <a href="mailto:yossefabdelkarem9@gmail.com" class="hover:text-[#FFC107] transition-all duration-300"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/yossefabdelkarem9" target="_blank" class="hover:text-[#FFC107] transition-all duration-300"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yossefabdelkarem/" target="_blank" class="hover:text-[#FFC107] transition-all duration-300"><i class="fab fa-linkedin"></i></a>
+        </div>
+        </div>
+        <div class="flex-1 flex justify-center mt-10 md:mt-0" data-aos="zoom-in">
+        <div class="relative w-[20rem] h-[20rem] flex items-center justify-center">
+            <img src="imgs/your-photo.jpg" 
+                alt="Yossef Abd Elkarem" 
+                class="relative rounded-full shadow-2xl w-[19rem] h-[19rem] object-cover border-4 border-white transition-transform duration-500 hover:scale-105 hover:shadow-[#FFC107]/70">
+        </div>
+    </div>
+</section>
+
+<section id="about" class="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-12">
+    <div class="flex-1 flex justify-center" data-aos="fade-right">
+        <img src="imgs/your-photo-2.jpg" 
+        alt="About Youssef" 
+        class="w-82 h-80 object-cover rounded-xl shadow-xl border-4 border-white transition-transform duration-500 hover:scale-105 hover:shadow-[#FFC107]/70">
+    </div>
+    <div class="flex-1" data-aos="fade-left">
+        <h2 class="text-4xl font-bold text-[#2196F3] dark:text-[#38bdf8] mb-6 text-center md:text-left">About Me</h2>
+        <p class="mb-4">I am Youssef Ahmed Abdul Karim, a third-year Computer Science student at Assiut University. I have a deep passion for Data Engineering, data analysis, and cloud systems.</p>
+        <p class="mb-6">Throughout my academic and training journey, I've invested my time in gaining practical experience in system building, data analysis, pipeline design, and working with modern tools used in the industry.</p>
+        
+        <div class="flex flex-wrap gap-3 justify-center md:justify-start">
+            <span class="flex items-center gap-2 px-3 py-1 bg-gray-200 dark:bg-gray-800 font-semibold rounded-full">
+                <i class="devicon-python-plain colored text-xl"></i> Python
+            </span>
+            <span class="flex items-center gap-2 px-3 py-1 bg-gray-200 dark:bg-gray-800 font-semibold rounded-full">
+                <i class="devicon-postgresql-plain colored text-xl"></i> SQL
+            </span>
+            <span class="flex items-center gap-2 px-3 py-1 bg-gray-200 dark:bg-gray-800 font-semibold rounded-full">
+                <i class="devicon-apachespark-original colored text-xl"></i> Apache Spark
+            </span>
+            <span class="flex items-center gap-2 px-3 py-1 bg-gray-200 dark:bg-gray-800 font-semibold rounded-full">
+                <i class="devicon-apachekafka-original colored text-xl"></i> Kafka
+            </span>
+            <span class="flex items-center gap-2 px-3 py-1 bg-gray-200 dark:bg-gray-800 font-semibold rounded-full">
+                <i class="devicon-hadoop-plain colored text-xl"></i> Hadoop
+            </span>
+            <span class="flex items-center gap-2 px-3 py-1 bg-gray-200 dark:bg-gray-800 font-semibold rounded-full">
+                <i class="devicon-azure-plain colored text-xl"></i> Azure
+            </span>
+            <span class="flex items-center gap-2 px-3 py-1 bg-gray-200 dark:bg-gray-800 font-semibold rounded-full">
+                <i class="devicon-pandas-original colored text-xl"></i> Pandas
+            </span>
+            <span class="flex items-center gap-2 px-3 py-1 bg-gray-200 dark:bg-gray-800 font-semibold rounded-full">
+                Airflow
+            </span>
+             <span class="flex items-center gap-2 px-3 py-1 bg-gray-200 dark:bg-gray-800 font-semibold rounded-full">
+                Power BI
+            </span>
+             <span class="flex items-center gap-2 px-3 py-1 bg-gray-200 dark:bg-gray-800 font-semibold rounded-full">
+                <i class="devicon-cplusplus-plain colored text-xl"></i> C++
+            </span>
+            <span class="flex items-center gap-2 px-3 py-1 bg-gray-200 dark:bg-gray-800 font-semibold rounded-full">
+                Data Structures
+            </span>
+        </div>
+    </div>
+ </section>
+
+ <section class="bg-gray-100 dark:bg-gray-800 py-5 px-6" id="education">
+    <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12 text-[#2196F3]">Education</h2>
+            <div class="space-y-6 text-center">
+        <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow" data-aos="fade-up">
+            <h3 class="text-xl font-semibold">B.Sc. in Computer Science</h3>
+            <p class="text-gray-600 dark:text-gray-400">Faculty of Computers and Information, Assiut University (2023 – Present)</p>
+        </div>
+    </div>
+    </div>
+  </section>
+  
+  <section class="py-10 px-6" id="training">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-12 text-[#2196F3]">Training & Certifications</h2>
+      <div class="space-y-6 text-center">
+        <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow" data-aos="fade-up">
+          <h3 class="text-xl font-semibold">Data Engineering Traineeship – DEPI</h3>
+          <p class="text-gray-600 dark:text-gray-400">Digital Egypt Pioneers Initiative (Python, SQL, Spark, Airflow, Azure, Kafka, ETL/ELT)</p>
+        </div>
+        <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow" data-aos="fade-up" data-aos-delay="200">
+          <h3 class="text-xl font-semibold">Huawei Big Data Associate – NTI</h3>
+          <p class="text-gray-600 dark:text-gray-400">80-hour offline training (Hadoop, HDFS, MapReduce, Spark, Flink, Kafka, Hive, HBase)</p>
+        </div>
+        <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow" data-aos="fade-up" data-aos-delay="400">
+          <h3 class="text-xl font-semibold">Huawei Certified ICT Associate – Big Data (HCIA-Big Data)</h3>
+          <p class="text-gray-600 dark:text-gray-400">Huawei certification in distributed big data systems.</p>
+        </div>
+         <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow" data-aos="fade-up" data-aos-delay="500">
+          <h3 class="text-xl font-semibold">Associate Data Engineer in SQL – DataCamp</h3>
+          <p class="text-gray-600 dark:text-gray-400">Complete SQL track (Window Functions, Data Modeling, ETL/ELT, Snowflake)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="services" class="bg-gray-100 dark:bg-black py-20 transition-colors duration-500">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-[#2196F3] dark:text-[#38bdf8] mb-12 text-center" data-aos="fade-up">What I Offer</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          
+          <div class="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8 text-center hover:shadow-2xl hover:-translate-y-2 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="200">
+            <i class="fas fa-database text-4xl text-[#6366F1] mb-4"></i>
+            <h3 class="text-2xl font-semibold mb-2">Data Pipeline Development (ETL/ELT)</h3>
+            <p>Designing and implementing automated pipelines to extract, transform, and load data from various sources.</p>
+          </div>
+          
+          <div class="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8 text-center hover:shadow-2xl hover:-translate-y-2 transition-transform duration-300" data-aos="zoom-in">
+            <i class="fas fa-cogs text-4xl text-[#4CAF50] mb-4"></i>
+            <h3 class="text-2xl font-semibold mb-2">Big Data Processing</h3>
+            <p>Using tools like Spark, Kafka, and Hadoop to process real-time (streaming) and batch data.</p>
+          </div>
+
+          <div class="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8 text-center hover:shadow-2xl hover:-translate-y-2 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="400">
+            <i class="fas fa-cloud text-4xl text-[#2196F3] mb-4"></i>
+            <h3 class="text-2xl font-semibold mb-2">Cloud Data Solutions</h3>
+            <p>Building and managing data systems on the cloud (especially Azure) using services like ADF, Event Hub, and Storage.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section class="bg-gray-100 dark:bg-gray-800 py-20 px-6" id="projects">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-12 text-[#2196F3]">Projects</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow" data-aos="zoom-in" data-aos-delay="200">
+        <img src="imgs/project-radar.png" alt="Smart Radar Project" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Smart Radar Traffic Monitoring System</h3>
+        <p class="text-sm text-gray-500 mb-3">DEPI Graduation Project (Kafka, PySpark, Azure, Power BI)</p>
+        <div class="flex justify-center gap-4">
+          <a href="https://github.com/yossefabdelkarem9/DEPI-graduation-project" target="_blank" 
+             class="text-[#4CAF50] font-semibold no-underline transition-transform transform hover:scale-105 hover:text-green-700">
+             View Repository
+          </a>
+        </div>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow" data-aos="zoom-in">
+        <img src="imgs/project-dwh.png" alt="Data Warehouse Project" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Data Warehouse (ETL) Project</h3>
+        <p class="text-sm text-gray-500 mb-3">CRM & ERP Simulation using SQL Server (Bronze/Silver/Gold)</p>
+        <div class="flex justify-center gap-4">
+          <a href="https://github.com/yossefabdelkarem9/E-Commerce-DWH-Project" target="_blank" 
+             class="text-[#4CAF50] font-semibold no-underline transition-transform transform hover:scale-105 hover:text-green-700">
+             View Repository
+          </a>
+        </div>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow" data-aos="zoom-in" data-aos-delay="400">
+        <img src="imgs/project-sat.png" alt="NYC SAT Analysis" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">NYC High School SAT Analysis</h3>
+         <p class="text-sm text-gray-500 mb-3">Data Analysis (Pandas, Data Cleaning, Visualization)</p>
+        <div class="flex justify-center gap-4">
+           <a href="#" target="_blank" 
+             class="text-[#4CAF50] font-semibold no-underline transition-transform transform hover:scale-105 hover:text-green-700">
+             View Repository
+          </a>
+        </div>
+      </div>
+
+       <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow" data-aos="zoom-in" data-aos-delay="400">
+        <img src="imgs/project-netflix.png" alt="Netflix Analysis" class="rounded-lg mb-4">
+        <h3 class="text-xl font-semibold mb-2">Netflix 1990s Movie Analysis</h3>
+         <p class="text-sm text-gray-500 mb-3">Data Analysis (Data Wrangling, Filtering, Statistics)</p>
+        <div class="flex justify-center gap-4">
+          <a href="#" target="_blank" 
+             class="text-[#4CAF50] font-semibold no-underline transition-transform transform hover:scale-105 hover:text-green-700">
+             View Repository
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="contact" class="container mx-auto px-6 py-20 text-center">
+      <h2 class="text-4xl font-bold text-[#2196F3] dark:text-[#38bdf8] mb-6" data-aos="fade-up">Let's Build Something Great</h2>
+      <p class="max-w-lg mx-auto mb-8" data-aos="fade-up" data-aos-delay="200">I'm currently available for summer internships, freelance projects, and Junior Data Engineer opportunities. Have a project or opportunity? Let's talk.</p>
+      <a href="mailto:yossefabdelkarem9@gmail.com" class="bg-[#FFC107] text-black px-8 py-3 rounded-full font-semibold hover:opacity-90 transition-transform hover:scale-105 inline-block" data-aos="zoom-in">Get In Touch</a>
+    </section>
+  </main>
+
+  <footer class="py-10 bg-gray-900 text-white text-center">
+    <p data-aos="fade-up">Created with a passion for data ✨</p>
+  </footer>
+  
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const icon = document.getElementById('theme-icon');
+
+    toggle.addEventListener('click', () => {
+      // Toggle the 'dark' class on the <html> element
+      document.documentElement.classList.toggle('dark'); 
+      
+      // Check if dark mode is *now* active
+      if (document.documentElement.classList.contains('dark')) {
+        // If dark, show sun icon
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      } else {
+        // If light, show moon icon
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    });
+  </script>
+  
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+  
+  <script>
+const hamburgerButton = document.getElementById('hamburger-button');
+const hamburgerIcon = document.getElementById('hamburger-icon');
+const navMenu = document.getElementById('nav-menu');
+const navLinks = document.querySelectorAll('.nav-link');
+
+// Function to toggle the menu
+hamburgerButton.addEventListener('click', () => {
+    navMenu.classList.toggle('hidden');
+    // Change icon between bars and times (X)
+    if (navMenu.classList.contains('hidden')) {
+        hamburgerIcon.classList.remove('fa-times');
+        hamburgerIcon.classList.add('fa-bars');
+    } else {
+        hamburgerIcon.classList.remove('fa-bars');
+        hamburgerIcon.classList.add('fa-times');
+    }
+});
+
+// Close menu when a link is clicked (for mobile)
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.add('hidden'); // Hide the menu
+        // Reset icon to bars
+        hamburgerIcon.classList.remove('fa-times');
+        hamburgerIcon.classList.add('fa-bars');
+    });
+});
+</script>
+</body>
+</html>
